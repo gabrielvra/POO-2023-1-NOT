@@ -1,9 +1,10 @@
-public class 01Aluno {
-    
+public class Aluno {
+    //ATRIBUTOS
     private String nome;
     private double nota1;
     private double nota2;
 
+    //MÉTODOS
     @Override
     public String toString() {
         return String.format("A média do aluno %s é %.2f",getNome(),(getNota1()+getNota2())/2);
