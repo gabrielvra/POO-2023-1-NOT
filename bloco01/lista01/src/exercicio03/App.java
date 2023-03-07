@@ -14,5 +14,7 @@ public class App {
 		
 		
 		System.out.println(produto01);
+		System.out.println(produto02);
+		System.out.println(produto03);
 	}
 }
