@@ -90,7 +90,7 @@ public class TelaJavaSwing {
 			public void actionPerformed(ActionEvent e) {
 				
 				//Converter um campo texto para inteiro.
-				if ("".equals(tfIdade.getText())) {
+				if (!"".equals(tfIdade.getText())) {
 					int idade = Integer.valueOf(tfIdade.getText());
 				}
 				
